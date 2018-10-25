@@ -32,7 +32,8 @@ body {
 	--color-bg-magnifier: #000;
 	--color-magnifier: #fff;
 	--color-btn-hover: #c1b3b1;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; */
+	font-family: 'Work Sans', sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
@@ -113,34 +114,25 @@ main {
 }
 
 /* Header */
-.codrops-header {
+.bukharigems-header {
 	padding: 2em;
 	position: relative;
 	z-index: 100;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	align-items: center;
+	/* align-items: center; */
 }
 
-.codrops-header__title {
+.bukharigems-header__title {
 	font-size: 2em;
 	font-weight: bold;
 	margin: 0;
 	padding: 0.75em 0;
 }
-
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-icon {
-	display: inline-block;
-	padding: 0.25em;
+.bukharigems-header__title #logo {
+	margin-bottom: -6.5px;
+	margin-right: -6.5px;
 }
 
 .info {
@@ -200,7 +192,7 @@ main {
 	margin: 0.5em 0 0;
 	font-size: 1.75em;
 	color: var(--color-product-title);
-	font-family: "Playfair Display", serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -280,7 +272,7 @@ main {
 	margin: -1.5em 0 0.1em;
 	font-size: 4.5em;
 	color: var(--color-details-title);
-	font-family: "Playfair Display", serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 700;
 }
 
